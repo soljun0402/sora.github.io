@@ -1,0 +1,103 @@
+body {
+  margin: 0px;
+}
+
+.bgImage img {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 40%;
+  background: center / cover no-repeat;
+  /* opacity: 0.8; */
+}
+
+.redbar {
+  background-color: #F9EBED;
+  padding: 10px;
+}
+
+.menu {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Mate SC', serif;	
+}
+h2 {
+  font-family: 'Titillium Web', sans-serif;
+}
+p {
+  font-family: 'Noto Serif', serif;
+  overflow: auto;				
+}
+.title {
+  font-family: 'Mate SC', serif;
+  font-weight: bold;
+}
+
+.contents {
+  font-family: 'Noto Serif', serif;
+  width: 60%;
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+.contents h1 {
+	text-align: center;
+	margin-top: 75px;
+	margin-bottom: 75px;
+	color: black;
+}
+			
+
+a {
+	text-decoration: none;
+  font-family: 'Mate SC', serif;
+  color: black;
+}
+
+a:visited {
+  color: #E1283F; 
+	text-decoration: none;
+	font-family: 'Mate SC', serif;
+}
+
+.back {
+	background-color: #F5F5F5;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  list-style-type: none;
+}
+
+.nav-item {
+  padding: 15px;
+  cursor: pointer;
+
+}
+
+#poster {
+  float: left;
+  width: 35%;
+  margin-right: 40px;
+  margin-bottom: 20px;
+
+}
+
+.info {
+  font-size: 10px;
+}
+
+#textimage {
+  width: 50%;
+  margin: 15px 15px 0 15px;
+}
+
+
